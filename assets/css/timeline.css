@@ -12,7 +12,7 @@
     bottom: 22px;
 }
 
-.timeline__row {
+.timeline__flex {
     display: flex;
     padding: .5rem 0;
     line-height: 28px;
