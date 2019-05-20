@@ -1,0 +1,8 @@
+.badge {
+    border-radius: 0.25rem;
+    padding: 0.25rem .5rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 1rem;
+}

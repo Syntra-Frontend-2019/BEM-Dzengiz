@@ -1,0 +1,35 @@
+.primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.secondary {
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+.success {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+}
+
+.info {
+    background-color: #17a2b8;
+    border: 1px solid #17a2b8;
+}
+
+.warning {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+.danger {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+.light {
+    background-color: #f8f9fa;
+    border: 1px solid gray;
+}
+
