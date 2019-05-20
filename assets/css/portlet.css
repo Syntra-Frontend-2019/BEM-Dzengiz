@@ -1,0 +1,16 @@
+.portlet {
+    margin: 0;
+    padding: 0;
+}
+
+.portlet--section {
+    margin: 0;
+    padding: 0;
+}
+
+.CAT--footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}

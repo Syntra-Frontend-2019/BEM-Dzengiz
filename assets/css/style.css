@@ -11,7 +11,7 @@
 @import url('buttons.css');
 @import url('badges.css');
 
-/* Lists & timelines */
-@import url('lists.css');
+/* Timelines & Portlet */
 @import url('timeline.css');
+@import url('portlet.css');
 

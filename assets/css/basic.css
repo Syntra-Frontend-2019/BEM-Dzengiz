@@ -34,6 +34,10 @@
     padding: 8px;
 }
 
+.p16 {
+    padding: 16px;
+}
+
 .m2 {
     margin: 2px;
 }
@@ -44,4 +48,9 @@
 
 .m8 {
     margin:8px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }

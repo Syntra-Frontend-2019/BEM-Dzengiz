@@ -1,39 +1,39 @@
-.primary {
+.is-primary {
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
 }
 
-.secondary {
+.is-secondary {
     background-color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
 }
 
-.success {
+.is-success {
     background-color: var(--color-success);
     border: 1px solid var(--color-success);
 }
 
-.info {
+.is-info {
     background-color: var(--color-info);
     border: 1px solid var(--color-info);
 }
 
-.warning {
+.is-warning {
     background-color: var(--color-warning);
     border: 1px solid var(--color-warning);
 }
 
-.danger {
+.is-danger {
     background-color: var(--color-danger);
     border: 1px solid var(--color-danger);
 }
 
-.light {
+.is-light {
     background-color: var(--color-light);
     border: 1px solid var(--color-secondary);
 }
 
-.lightGray {
+.is-light-gray {
     background-color: var(--color-lightGrey);
     border: 1px solid var(--color-lightGrey);
 }

@@ -23,24 +23,24 @@
 <body>
     <!-- Normal buttons -->
     <div class="container">
-        <button class="btn btn--normal primary textColorWhite">Primary</button>
-        <button class="btn btn--normal secondary textColorWhite">Secondary</button>
-        <button class="btn btn--normal success textColorWhite">Success</button>
-        <button class="btn btn--normal info textColorWhite">Info</button>
-        <button class="btn btn--normal warning textColorBlack">warning</button>
-        <button class="btn btn--normal danger textColorWhite">Danger</button>
-        <button class="btn btn--normal light textColorBlack">Link</button>
+        <button class="btn btn--normal is-primary text-color-white">Primary</button>
+        <button class="btn btn--normal is-secondary text-color-white">Secondary</button>
+        <button class="btn btn--normal is-success text-color-white">Success</button>
+        <button class="btn btn--normal is-info text-color-white">Info</button>
+        <button class="btn btn--normal is-warning text-color-black">warning</button>
+        <button class="btn btn--normal is-danger text-color-white">Danger</button>
+        <button class="btn btn--normal is-light text-color-black">Link</button>
     </div>
 
     <!-- Larger buttons -->
     <div class="container">
-        <button class="btn btn--large primary textColorWhite">Primary</button>
-        <button class="btn btn--large secondary textColorWhite">Secondary</button>
-        <button class="btn btn--large success textColorWhite">Success</button>
-        <button class="btn btn--large info textColorWhite">Info</button>
-        <button class="btn btn--large warning textColorBlack">warning</button>
-        <button class="btn btn--large danger textColorWhite">Danger</button>
-        <button class="btn btn--large light textColorBlack">Link</button>
+        <button class="btn btn--large is-primary text-color-white">Primary</button>
+        <button class="btn btn--large is-secondary text-color-white">Secondary</button>
+        <button class="btn btn--large is-success text-color-white">Success</button>
+        <button class="btn btn--large is-info text-color-white">Info</button>
+        <button class="btn btn--large is-warning text-color-black">warning</button>
+        <button class="btn btn--large is-danger text-color-white">Danger</button>
+        <button class="btn btn--large is-light text-color-black">Link</button>
     </div>
 
     <!-- Timeline 1 -->
@@ -53,14 +53,14 @@
             <div class="timeline__flex">
                 <div class="timeline__content">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    <span class="badge danger textColorWhite">Settled</span>
+                    <span class="badge is-danger text-color-white">Settled</span>
                 </div>
                 <div class="timeline__timestamp">2h ago</div>
             </div>
             <div class="timeline__flex">
                 <div class="timeline__content">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    <span class="badge primary textColorWhite">Completed</span>
+                    <span class="badge is-primary text-color-white">Completed</span>
                 </div>
                 <div class="timeline__timestamp">2h ago</div>
             </div>
@@ -84,7 +84,7 @@
             </div>
             <div class="timeline__flex">
                 <div class="timeline__content timeline__content--danger">Scheduled system reboot completed
-                    <span class="badge success textColorWhite">completed</span>
+                    <span class="badge is-success text-color-white">completed</span>
                 </div>
                 <div class="timeline__timestamp">14 mins</div>
             </div>
@@ -94,13 +94,13 @@
             </div>
             <div class="timeline__flex">
                 <div class="timeline__content timeline__content--primary">Database server overloaded 80% and requires quick reboot
-                    <span class="badge primary textColorWhite">settled</span>
+                    <span class="badge is-primary text-color-white">settled</span>
                 </div>
                 <div class="timeline__timestamp">1 hr</div>
             </div>
             <div class="timeline__flex">
                 <div class="timeline__content timeline__content--info">System error occurred and hard drive has been shutdown
-                    <span class="badge light textColorBlack">- check</span>
+                    <span class="badge is-light text-color-black">- check</span>
                 </div>
                 <div class="timeline__timestamp">2 hrs</div>
             </div>
@@ -112,15 +112,15 @@
     </div>
 
     <!-- Call to action -->
-    <div class="container container-rounded">
-        <div class="CAT">
-            <div class="CAT--header textColorGray p8">
-                <i class="far fa-clipboard textSizeLarge textColorGray mr8"></i> <span class="CAT--header--title textSizeXxLarge textColorBlack mr8">Portlet header</span><span class="CAT--header-subtitle textSizeLarge textColorGray">Portlet subtitle</span>
+    <div class="container-rounded">
+        <div class="portlet">
+            <div class="p16">
+                <i class="far fa-clipboard text-size-large text-color-gray mr8"></i> <span class="CAT--header--title text-size-xx-large text-color-black mr8">Portlet header</span><span class="CAT--header-subtitle text-size-large text-color-gray">Portlet subtitle</span>
             </div>
 
-            <hr class="lightGray">
+            <hr class="is-light-gray">
 
-            <div class="CAT--content p8">
+            <div class="p16">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur autem blanditiis
                     consequuntur culpa deleniti dicta eaque error eum facilis id illo incidunt iure magnam minima
                     molestiae nam odio, officiis pariatur quae quam recusandae reprehenderit rerum tempore voluptates!
@@ -129,10 +129,15 @@
                 </p>
             </div>
 
-            <hr class="lightGray">
+            <hr class="is-light-gray">
 
-            <div class="CAT--footer p8">
-
+            <div class="CAT--footer p16">
+                <div class="CAT--footer-message">
+                    This is a footer
+                </div>
+                <div class="CAT--footer-actions">
+                    <button class="btn btn--normal is-primary">Submit</button> or <button class="btn btn--normal is-light">Cancel</button>
+                </div>
             </div>
         </div>
     </div>
