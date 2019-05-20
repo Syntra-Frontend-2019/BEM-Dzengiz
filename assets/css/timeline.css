@@ -5,7 +5,7 @@
 .timeline:before {
     content: "";
     width: 2px;
-    background-color: #DDD;
+    background-color: var(--color-lightGrey);
     position: absolute;
     left: 3px;
     top: 22px;
@@ -30,8 +30,33 @@
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 0.25rem;
-    background-color: #DDD;
+    background-color: var(--color-lightGrey);
     position: absolute;
     left: 0;
     top: calc(50% - 4px);
+}
+
+
+.timeline__content--primary:before {
+    background-color: var(--color-primary);
+}
+
+.timeline__content--secondary:before {
+    background-color: var(--color-secondary);
+}
+
+.timeline__content--success:before {
+    background-color: var(--color-success);
+}
+
+.timeline__content--info:before {
+    background-color: var(--color-info);
+}
+
+.timeline__content--warning:before {
+    background-color: var(--color-warning);
+}
+
+.timeline__content--danger:before {
+    background-color: var(--color-danger);
 }

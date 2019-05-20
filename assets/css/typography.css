@@ -1,7 +1,7 @@
 .textColorWhite {
-    color: white;
+    color: var(--color-light);
 }
 
 .textColorBlack {
-    color: black;
+    color: var(--color-dark);
 }
