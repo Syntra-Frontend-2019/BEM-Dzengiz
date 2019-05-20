@@ -1,7 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .textColorWhite {
     color: var(--color-light);
 }
 
 .textColorBlack {
     color: var(--color-dark);
+}
+
+.textColorGray {
+    color: var(--color-lightGrey);
+}
+
+.textSizeLarger {
+    font-size: larger;
+}
+
+.textSizeLarge {
+    font-size: large;
+}
+
+.textSizeXLarge {
+    font-size: x-large
+}
+
+.textSizeXxLarge {
+    font-size: xx-large;
 }

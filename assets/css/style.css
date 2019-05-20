@@ -1,9 +1,17 @@
+/* Basic imports */
 @import url('colors.css');
-@import url('typography.css');
-@import url('colorMarkup.css');
+@import url('basic.css');
 @import url('divs.css');
+
+/* Typography */
+@import url('typography.css');
+
+/* Color markup, buttons & badges */
+@import url('colorMarkup.css');
 @import url('buttons.css');
+@import url('badges.css');
+
+/* Lists & timelines */
 @import url('lists.css');
 @import url('timeline.css');
-@import url('badges.css');
 
